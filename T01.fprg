@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:15:24 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtUDA4OUFRVkM7MjAyNC0wOS0wNjsxMDowODo1NiBBTTsyNjM3"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtUDA4OUFRVkM7MjAyNC0wOS0wNjsxMToxNToyNCBBTTsxOzI3Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <declare name="JUDUL" type="String" array="False" size=""/>
+            <declare name="PENULIS" type="String" array="False" size=""/>
+            <declare name="TAHUNTERBIT" type="Integer" array="False" size=""/>
+            <declare name="PENERBIT" type="String" array="False" size=""/>
+            <declare name="FORMATBUKU" type="String" array="False" size=""/>
+            <declare name="HARGAPEMBELIAN" type="Real" array="False" size=""/>
+            <declare name="MINIMUMMARGIN" type="Real" array="False" size=""/>
+            <declare name="STOK" type="Integer" array="False" size=""/>
+            <declare name="RATING" type="Real" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="JUDUL"/>
+            <input variable="PENULIS"/>
+            <input variable="TAHUNTERBIT"/>
+            <input variable="PENERBIT"/>
+            <input variable="FORMATBUKU"/>
+            <input variable="HARGAPEMBELIAN"/>
+            <input variable="MINIMUMMARGIN"/>
+            <input variable="STOK"/>
+            <input variable="RATING"/>
+            <output expression="ISBN &amp;&quot;|&quot; &amp;JUDUL &amp;&quot;|&quot; &amp;PENULIS &amp;&quot;|&quot; &amp;TAHUNTERBIT &amp;&quot;|&quot; &amp;PENERBIT &amp;&quot;|&quot; &amp;FORMATBUKU &amp;&quot;|&quot; &amp;HARGAPEMBELIAN &amp;&quot;|&quot; &amp;MINIMUMMARGIN &amp;&quot;|&quot; &amp;STOK &amp;&quot;|&quot; &amp;RATING" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
