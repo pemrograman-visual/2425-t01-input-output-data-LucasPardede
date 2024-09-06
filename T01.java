@@ -1,11 +1,10 @@
 // 12S24022 - INGRATE JOY SIHOMBING
 // 12S24015 - LUCAS PARDEDE
 
-
 import java.util.*;
 import java.lang.Math;
 
-public class Program {
+public class T01 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -23,13 +22,13 @@ public class Program {
         iSBN = input.nextLine();
         jUDUL = input.nextLine();
         pENULIS = input.nextLine();
-        tAHUNTERBIT = input.nextInt();
+        tAHUNTERBIT = Integer.parseInt(input.nextLine());
         pENERBIT = input.nextLine();
         fORMATBUKU = input.nextLine();
-        hARGAPEMBELIAN = input.nextDouble();
-        mINIMUMMARGIN = input.nextDouble();
-        sTOK = input.nextInt();
-        rATING = input.nextDouble();
+        hARGAPEMBELIAN = Double.parseDouble(input.nextLine());
+        mINIMUMMARGIN = Double.parseDouble(input.nextLine());
+        sTOK = Integer.parseInt(input.nextLine());
+        rATING = Double.parseDouble(input.nextLine());
         System.out.println(iSBN + "|" + jUDUL + "|" + pENULIS + "|" + tAHUNTERBIT + "|" + pENERBIT + "|" + fORMATBUKU + "|" + hARGAPEMBELIAN + "|" + mINIMUMMARGIN + "|" + sTOK + "|" + rATING);
     }
 }
